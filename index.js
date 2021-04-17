@@ -3,4 +3,5 @@ function receivesAFunction(callback){
 }
 
 function returnsANamedFunction(){
+    return(callback)
 }
