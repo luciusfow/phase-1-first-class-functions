@@ -3,5 +3,13 @@ function receivesAFunction(callback){
 }
 
 function returnsANamedFunction(){
-    return(callback)
+    return function hello(){
+    }
+}
+
+function returnsAnAnonymousFunction(){
+
+    return function(){
+
+    }
 }
